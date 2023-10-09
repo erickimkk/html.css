@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(55, 55, 55);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(128, 68, 240);
+            padding: 10px;
+            
+
+        }
+        nav{
+            background-color: rgb(126, 126, 126);
+            text-align: center;
+            margin-right: 0px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgba(147, 37, 232, 0.675);
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 10px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: rgb(143, 142, 142);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BUYFIO</h1>
+        <nav>
+            <p>atleticas</p>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h2>noticias sobre mim</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quia sit enim vitae beatae corporis libero eveniet aliquid ipsum pariatur! Nisi iure quae ex distinctio, omnis dicta esse commodi rem?escrito por mim</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo ERICKAO DO GRAU</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

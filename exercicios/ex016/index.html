@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(39, 60, 10);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: brown;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        a:active{
+            color: aqua;
+        }
+        a::after{
+            content: '[link]';
+            font-weight: normal;
+            text-decoration: none;
+            color: rgb(162, 154, 143);
+        }
+        .especial{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalisando links</h1>
+    <ul>
+        <li><a href="https://github.com/erickimkk/erickim" target="_blank">meu repositorio</a></li>
+        <li><a href="https://www.youtube.com/@piscagames24" target="_blank" class="especial">canal do pisca</a></li>
+        <li><a href="https://www.youtube.com/@MaiconKuster" target="_blank">canal do maicon</a></li>
+    </ul>
+    
+</body>
+</html>

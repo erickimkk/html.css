@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(120, 10, 193);
+    margin: -10px;
+    padding: 10px;
+    text-align: left;
+}
+
+nav > a {
+    
+}
